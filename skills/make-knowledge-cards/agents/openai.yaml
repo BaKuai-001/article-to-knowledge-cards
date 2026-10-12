@@ -1,0 +1,11 @@
+# OpenAI agent 配置:在支持 agents/openai.yaml 的运行时中注册本 Skill。
+# 该文件是可选元数据,核心逻辑全部在 SKILL.md 中。
+display_name: "Make Knowledge Cards"
+short_description: "把文章或 Markdown/TXT 文件提炼成 5~8 张知识卡片"
+icon: 🗂️
+default_prompt: >-
+  请把下面这篇文章转换成知识卡片(通常 5~8 张,信息不足时更少)。
+  每张卡片包含:标题、核心知识、简明解释、例子或自测问题。
+  只提取真正重要的知识,一张卡片只讲一个知识点,
+  删除重复内容,不要编造原文没有的信息;信息不足时不要强行凑数量。
+  暂不支持:网页抓取、PDF、Anki 和图形界面。

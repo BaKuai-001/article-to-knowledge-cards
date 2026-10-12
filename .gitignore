@@ -1,0 +1,13 @@
+# WorkBuddy 工作区数据(开发过程记录,不公开)
+.workbuddy/
+
+# 操作系统临时文件
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# 编辑器临时文件
+*.tmp
+*.bak
+*.swp
+*~
